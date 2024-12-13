@@ -1,3 +1,25 @@
+
+.title{
+    font-size: 40px;
+}
+
+.keypad{
+    border: solid black; 
+    height: 48vh; 
+}
+
+.keys{
+    border: solid silver;
+    border-radius: 12px; 
+    width: 80px; 
+    color: lightseagreen; 
+    font-size: 12px; 
+    text-align: center;
+    
+}
+
+
+
 .keys:hover{
 border: solid lightgray; 
 border-radius: 12px; 
@@ -6,4 +28,17 @@ color: red;
 background-color: darkgray; 
 font-size: 22px; 
 text-align: center;
+}
+
+.firstRow{
+    display: flex; 
+}
+
+.secondRow{
+    display: flex; 
+}
+
+.thirdRow{
+    display: flex; 
+
 }
