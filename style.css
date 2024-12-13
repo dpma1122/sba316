@@ -2,7 +2,8 @@
 
 .title{
     font-size: 40px;
-    text-align: center; 
+    text-align: center;
+    margin: 2em; 
 }
 
 .keypad{
@@ -36,7 +37,7 @@ text-align: center;
     display: flex; 
     margin-top: 80px; 
     margin-bottom: 80px; 
-    justify-content: space evenly; 
+    justify-content: space-evenly; 
 }
 
 .secondRow{
@@ -62,4 +63,4 @@ text-align: center;
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
+ 
