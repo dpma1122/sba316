@@ -32,13 +32,21 @@ text-align: center;
 
 .firstRow{
     display: flex; 
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+    justify-content: space evenly; 
 }
 
 .secondRow{
     display: flex; 
+   margin-top: 90px;
+   margin-bottom: 90px; 
+   justify-content: space-evenly;
 }
 
 .thirdRow{
     display: flex; 
-
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+    justify-content: space-evenly; 
 }
