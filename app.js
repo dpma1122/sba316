@@ -6,11 +6,25 @@ const category2 = document.querySelector (".button2").style.color = "red"
 
 
 //these are the words to guess
-const button1 = ["Mexican", "Chinese", "Japanese", "Greek"]
+const cuisine = ["Mexican", "Chinese", "Japanese", "Greek"]
 
- const button2= ["Mexico", "China", "Japan", "Greece"]
+ const country= ["Mexico", "China", "Japan", "Greece"]
 
- let currentword ='';
- let guessedLetters = [];
+let currentword ='';
+let guessedLetters = [];
+
+
+
+cuisine.forEach((cuisine) => {
+    console.log(cuisine.toUpperCase());
+});
+
+cuisine.forEach((country) => {
+    console.log(country.toUpperCase());
+});
 
 //  use iteration (repeat instructions)
+
+
+
+
