@@ -13,18 +13,27 @@ const cuisine = ["Mexican", "Chinese", "Japanese", "Greek"]
 let currentword ='';
 let guessedLetters = [];
 
+function checkLetters(){
+    console.log("hello")
+}
 
+const keys= document.querySelectorAll('.keys')
 
-cuisine.forEach((cuisine) => {
-    console.log(cuisine.toUpperCase());
-});
-
-cuisine.forEach((country) => {
-    console.log(country.toUpperCase());
-});
-
+keys.addEventListener("click",()=>{console.log ('hi')})
 //  use iteration (repeat instructions)
 
 
+function myfunction() {console.log('he"')}
+keys.addEventListener("click", myfunction);
 
 
+// const keys = document.querySelectorAll(“.keys”);
+
+const wordToComapre = keys.forEach((key) => {
+  key.addEventListener((click), () => {
+    console.log(key.textContent);
+    word += key.textContent;
+    return word;
+  });
+});
+console.log(wordToComapre);
