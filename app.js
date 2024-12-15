@@ -19,21 +19,22 @@ function checkLetters(){
 
 const keys= document.querySelectorAll('.keys')
 
-keys.addEventListener("click",()=>{console.log ('hi')})
+//keys.addEventListener("click",()=>{console.log ('hi')})
 //  use iteration (repeat instructions)
 
 
-function myfunction() {console.log('he"')}
+//function myfunction() {console.log('he"')}
 keys.addEventListener("click", myfunction);
 
 
 // const keys = document.querySelectorAll(“.keys”);
 
 const wordToComapre = keys.forEach((key) => {
-  key.addEventListener((click), () => {
+  key.addEventListener('click', () => {
     console.log(key.textContent);
     word += key.textContent;
     return word;
   });
 });
 console.log(wordToComapre);
+
