@@ -19,11 +19,11 @@ function checkLetters(){
 
 const keys= document.querySelectorAll('.keys')
 
-//keys.addEventListener("click",()=>{console.log ('hi')})
+keys.addEventListener("click",()=>{console.log ('hi')})
 //  use iteration (repeat instructions)
 
 
-//function myfunction() {console.log('he"')}
+function myfunction() {console.log('h')}
 keys.addEventListener("click", myfunction);
 
 
@@ -38,3 +38,41 @@ const wordToComapre = keys.forEach((key) => {
 });
 console.log(wordToComapre);
 
+const button1 = document.querySelector('button1');
+button1.addEventListener('clicked', function(){
+    const inputByUser = prompt('Enter guess here:');
+})
+
+ function checkLetters() {
+    const word = ["Mexican", "Chinese", "Japanese", "Greek", ];
+    const lettersToCheck = ['a', 'c', 'e', 'g', 'h', 'i', 'j', 'k', 'm', 'n', 'p', 'r', 's', 'x'];
+  
+    const foundLetters = lettersToCheck.filter(letter => {
+      return word.some(word => word.toUpperCase().includes(letter));
+    });
+  
+    return foundLetters;
+  }
+  const button2 = document.querySelector('button2');
+  button2.addEventListener('click', function() {
+    const userInput = prompt('Please enter your guesses:');
+    console.log(userInput);
+  });
+ 
+
+ function checkLetters2(){
+    const words = ["Mexico", "China", "Japan", "Greece", ];
+    const lettersToCheck = ['a', 'c', 'e', 'g', 'h', 'i', 'j', 'k', 'm', 'n', 'p', 'r', 's', 'x'];
+  
+    const foundLetters2 = lettersToCheck.filter(letter => {
+      return words.some(words => words.toUpperCase().includes(letter));
+    });
+  
+    return foundLetters2;
+  }
+ 
+//append keys to the screen
+
+const addToScreen = (keys) => {
+    screen.append(keys)
+}
