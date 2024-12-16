@@ -78,3 +78,4 @@ const addToScreen = (keys) => {
     screen.append(keys)
 }
 //I'm tyring to get the keypad to append to the screen but its not working. Pressing the keys creates teh hoover affect and the keys change color but they're appending to the screen. 
+
