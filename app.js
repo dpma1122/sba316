@@ -39,9 +39,10 @@ const wordToComapre = keys.forEach((key) => {
 console.log(wordToComapre);
 
 const button1 = document.querySelector('button1');
-button1.addEventListener('clicked', function(){
+button1.addEventListener('click', function(){
     const inputByUser = prompt('Enter guess here:');
 })
+//tried to to get the buttons for the cuisine and country to open to allow users to input text with an onclick. I don't think that the call back has been assigned
 
  function checkLetters() {
     const word = ["Mexican", "Chinese", "Japanese", "Greek", ];
@@ -76,3 +77,4 @@ button1.addEventListener('clicked', function(){
 const addToScreen = (keys) => {
     screen.append(keys)
 }
+//I'm tyring to get the keypad to append to the screen but its not working. Pressing the keys creates teh hoover affect and the keys change color but they're appending to the screen. 
