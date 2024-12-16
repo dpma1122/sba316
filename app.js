@@ -77,5 +77,13 @@ button1.addEventListener('click', function(){
 const addToScreen = (keys) => {
     screen.append(keys)
 }
-//I'm tyring to get the keypad to append to the screen but its not working. Pressing the keys creates teh hoover affect and the keys change color but they're appending to the screen. 
+//I'm tyring to get the keypad to append to the screen but its not working. Pressing the keys creates teh hoover affect and the keys change color but they're appending to the screen or to the input box
 
+const btnguesses = document.getElementById('btnguesses')
+
+/*btnguesses.addEventListener('click', () => {
+ const words = document.createElement('words'); 
+ words.innerText = 
+})*/
+
+//I'm not understanding how to do a call back function to append the letters I want hteh user input. 
